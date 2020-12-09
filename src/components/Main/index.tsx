@@ -1,10 +1,18 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo,BottomMenu,
+import ProfilePage from '../ProfilePage'
+
+import { 
+    Container,
+    Header,
+    BackIcon,
+    ProfileInfo,
+    BottomMenu,
     HomeIcon,
     SearchIcon,
     BellIcon,
-    EmailIcon } from './styles';
+    EmailIcon 
+} from './styles';
 
 const Main: React.FC = () => {
   return (
@@ -18,7 +26,7 @@ const Main: React.FC = () => {
                 <span>42 Tweets</span>
             </ProfileInfo>
         </Header>
-        {/* <ProfilePage/> */}
+        <ProfilePage/>
         <BottomMenu>
             <HomeIcon className="active"/>
             <SearchIcon/>
