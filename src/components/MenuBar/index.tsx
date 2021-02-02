@@ -33,7 +33,7 @@ const MenuBar: React.FC = () => {
                 </MenuButton>
                 <MenuButton>
                     <EmailIcon/>
-                    <span>Mensagens</span>
+                    <span>Mensafdsfdsafdsgens</span>
                 </MenuButton>
                 <MenuButton>
                     <FavoriteIcon/>
