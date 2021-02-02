@@ -29,7 +29,7 @@ const MenuBar: React.FC = () => {
                 </MenuButton>    
                 <MenuButton>
                     <BellIcon/>
-                    <span>Notificações</span>
+                    <span>Notifdsafdsadsficações</span>
                 </MenuButton>
                 <MenuButton>
                     <EmailIcon/>
